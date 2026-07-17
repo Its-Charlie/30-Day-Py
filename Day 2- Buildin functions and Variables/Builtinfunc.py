@@ -29,3 +29,8 @@ first_name = input("What is your first name? ")
 last_name = input("What is your last name? ")
 country = input("What is your country? ")
 age = input("What is your age? ")
+
+#min() and max() methods can be used to find the minimum and maximum values in a list of numbers:
+print(min(1, 2, 3, 4, 5)) #show minimum value
+print(max(1, 2, 3, 4, 5)) #show maximum value
+print(sum([1, 2, 3, 4, 5])) #show sum of all values in the list
