@@ -23,3 +23,9 @@ print(len(first_name)) #show length of first_name variable
 print(len(last_name)) #show length of last_name variable
 print(min(first_name, last_name)) #compare and show the length of the smaller one
 print(max(first_name, last_name)) #compare and show the length of the larger one
+
+# use input() method to get user input:
+first_name = input("What is your first name? ")
+last_name = input("What is your last name? ")
+country = input("What is your country? ")
+age = input("What is your age? ")
