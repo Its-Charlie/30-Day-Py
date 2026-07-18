@@ -11,3 +11,27 @@ print('Division without the remainder: ', 7 // 2)   # 3,  gives without the floa
 print ('Division without the remainder: ',7 // 3)   # 2
 print('Modulus: ', 3 % 2)         # 1, Gives the remainder
 print('Exponentiation: ', 2 ** 3) # 8 it means 2 * 2 * 2
+
+
+# Declaring the variable at the top first
+
+a = 3 # a declared as a variable name and 3 is an integer data type
+b = 2 # b declared as a variable name and 2 is an integer data type
+
+# Arithmetic operations using the variables a and b
+total = a + b
+diff = a - b
+product = a * b
+division = a / b
+remainder = a % b
+floor_division = a // b
+exponential = a ** b
+
+print(total)
+print('a + b = ', total)
+print('a - b = ', diff)
+print('a * b = ', product)
+print('a / b = ', division)
+print('a % b = ', remainder)
+print('a // b = ', floor_division)
+print('a ** b = ', exponential)
