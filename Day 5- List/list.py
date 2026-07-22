@@ -66,3 +66,10 @@ print(numbers)
 numbers = [10, 20, 30]
 numbers.clear()
 print(numbers)
+
+#Useful Built-in Functions
+numbers = [10, 20, 30, 40]
+
+print(max(numbers))
+print(min(numbers))
+print(sum(numbers))
