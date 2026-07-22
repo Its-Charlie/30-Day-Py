@@ -15,5 +15,20 @@ print(full_name)
 
 #String Repetition:
 word = "Python "
-
 print(word * 3)
+
+#String Length:
+text = "Artificial Intelligence"
+
+print(len(text))
+
+#Character Indexing:
+language = "Python"
+
+print(language[0])
+print(language[1])
+print(language[5])
+
+print(language[-1])
+print(language[-2])
+print(language[-6])
