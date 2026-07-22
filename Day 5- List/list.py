@@ -28,3 +28,16 @@ print(fruits)
 fruits = ["Apple", "Banana"]
 fruits.append("Mango")
 print(fruits)
+
+'Different List Methods:'
+#Insert an Element
+fruits = ["Apple", "Mango"]
+fruits.insert(1, "Banana")
+print(fruits)
+
+#Extend a List
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+list1.extend(list2)
+print(list1)
