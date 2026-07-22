@@ -41,3 +41,28 @@ list2 = [4, 5, 6]
 
 list1.extend(list2)
 print(list1)
+
+#Remove an Element
+fruits = ["Apple", "Banana", "Mango"]
+fruits.remove("Banana")
+print(fruits)
+
+#Pop an Element
+fruits = ["Apple", "Banana", "Mango"]
+fruits.pop()
+print(fruits)
+
+#Pop by Index
+fruits = ["Apple", "Banana", "Mango"]
+fruits.pop(1)
+print(fruits)
+
+#Delete an Element
+numbers = [10, 20, 30, 40]
+del numbers[2]
+print(numbers)
+
+#Clear the List
+numbers = [10, 20, 30]
+numbers.clear()
+print(numbers)
