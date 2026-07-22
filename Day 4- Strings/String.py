@@ -40,3 +40,19 @@ text = "PYTHON PROGRAMMING"
 print(text.lower())
 
 
+'Different String Methods:'
+#Find a Word
+text = "Python Programming"
+print(text.find("Programming"))
+
+#Count Characters
+text = "banana"
+print(text.count("a"))
+
+#Check Starts With
+text = "Python Programming"
+print(text.startswith("Python"))
+
+#Check Ends With
+text = "Python Programming"
+print(text.endswith("Programming"))
