@@ -1,4 +1,7 @@
 #Creating a Tuple
+from typing import List
+
+
 fruits = ("Apple", "Banana", "Mango")
 print(fruits)
 
@@ -67,3 +70,17 @@ name, age, course = student
 print(name)
 print(age)
 print(course)
+
+#Convert List to Tuple
+numbers = [10, 20, 30]
+
+result = tuple(numbers)
+
+print(result)
+
+#Convert Tuple to List
+numbers = (10, 20, 30)
+
+result = list(numbers)
+
+print(result)
