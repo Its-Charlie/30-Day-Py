@@ -48,3 +48,9 @@ print(tuple3)
 numbers = (1, 2)
 
 print(numbers * 3)
+
+#Iterate Through a Tuple
+fruits = ("Apple", "Banana", "Mango")
+
+for fruit in fruits:
+    print(fruit)
