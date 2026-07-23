@@ -84,3 +84,11 @@ numbers = (10, 20, 30)
 result = list(numbers)
 
 print(result)
+
+
+#Using Built-in Functions
+numbers = (10, 20, 30, 40)
+
+print(max(numbers))
+print(min(numbers))
+print(sum(numbers))
