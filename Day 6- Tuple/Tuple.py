@@ -54,3 +54,16 @@ fruits = ("Apple", "Banana", "Mango")
 
 for fruit in fruits:
     print(fruit)
+
+#Tuple Packing
+student = ("Siddhesh", 22, "AI & DS")
+
+print(student)
+#Tuple Unpacking
+student = ("Siddhesh", 22, "AI & DS")
+
+name, age, course = student
+
+print(name)
+print(age)
+print(course)
