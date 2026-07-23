@@ -23,3 +23,14 @@ print(numbers[2:])
 fruits = ("Apple", "Banana", "Mango")
 
 print(len(fruits))
+
+'Using Tuple Methods:'
+#Count Occurrences
+numbers = (1, 2, 2, 3, 2)
+
+print(numbers.count(2))
+
+#Find Index:
+fruits = ("Apple", "Banana", "Mango")
+
+print(fruits.index("Banana"))
