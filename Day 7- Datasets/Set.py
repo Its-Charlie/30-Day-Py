@@ -32,3 +32,6 @@ fruits.discard("Orange")   # No Error
 
 #Join A & B
 print(A | B)
+
+#Find A intersection B
+print(A & B)
