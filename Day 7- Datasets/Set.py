@@ -42,3 +42,6 @@ print(A)
 
 B.update(A)
 print(B)
+
+#Symmetric Difference
+print(A ^ B)
