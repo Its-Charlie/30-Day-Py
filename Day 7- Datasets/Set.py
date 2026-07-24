@@ -7,3 +7,11 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 
 #Using len() to determine the length of the set:
 print(len(it_companies))  # Output: 7
+
+#add ing an element to the set:
+it_companies.add('Twitter')
+print(it_companies)
+
+#Insert multiple IT companies
+it_companies.update(["Intel", "Tesla", "Adobe"])
+print(it_companies)
