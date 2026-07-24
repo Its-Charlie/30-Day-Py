@@ -49,3 +49,16 @@ print(A ^ B)
 #Delete the sets
 del A
 del B
+
+#Convert ages to a set
+age = [22, 19, 24, 25, 26, 24, 25, 24]
+
+age_set = set(age)
+
+print("Length of List:", len(age))
+print("Length of Set:", len(age_set))
+
+if len(age) > len(age_set):
+    print("List is bigger")
+else:
+    print("Set is bigger")
