@@ -19,3 +19,13 @@ print(it_companies)
 #Remove one company
 it_companies.remove("IBM")
 print(it_companies)
+
+#Difference between remove() and discard()
+# remove() gives an error if the item is not found
+# discard() does not give an error if the item is not found
+
+fruits = {"Apple", "Banana"}
+
+fruits.discard("Orange")   # No Error
+
+# fruits.remove("Orange")  # Error
