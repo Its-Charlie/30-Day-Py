@@ -45,3 +45,7 @@ print(B)
 
 #Symmetric Difference
 print(A ^ B)
+
+#Delete the sets
+del A
+del B
