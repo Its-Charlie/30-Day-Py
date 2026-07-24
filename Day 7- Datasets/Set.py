@@ -15,3 +15,7 @@ print(it_companies)
 #Insert multiple IT companies
 it_companies.update(["Intel", "Tesla", "Adobe"])
 print(it_companies)
+
+#Remove one company
+it_companies.remove("IBM")
+print(it_companies)
