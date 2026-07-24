@@ -35,3 +35,10 @@ print(A | B)
 
 #Find A intersection B
 print(A & B)
+
+#Join A with B and B with A
+A.update(B)
+print(A)
+
+B.update(A)
+print(B)
