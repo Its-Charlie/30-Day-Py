@@ -29,3 +29,6 @@ fruits = {"Apple", "Banana"}
 fruits.discard("Orange")   # No Error
 
 # fruits.remove("Orange")  # Error
+
+#Join A & B
+print(A | B)
