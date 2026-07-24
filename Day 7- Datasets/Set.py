@@ -62,3 +62,13 @@ if len(age) > len(age_set):
     print("List is bigger")
 else:
     print("Set is bigger")
+
+#Count Unique Words
+sentence = "I am a teacher and I love to inspire and teach people."
+
+words = sentence.split()
+
+unique_words = set(words)
+
+print(unique_words)
+print("Number of unique words:", len(unique_words))
