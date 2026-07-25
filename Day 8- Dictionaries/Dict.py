@@ -5,6 +5,13 @@ student = {
     "city": "Kamothe"
 }
 
+#Create Dictionary
+students = {
+    "name": "Charlie",
+    "age": 22,
+    "city": "Kamothe"
+}
+
 print(student)
 
 #Empty Dictionary examples:
@@ -41,14 +48,20 @@ student.pop("age")
 
 del student["city"]
 
-#Delete entire dictionary
+#delete student dictionary
 del student
 
 #To get all keys in a dictionary, use the keys() method:
-print(student.keys())
+print(students.keys())
 
 #To get all values in a dictionary, use the values() method:
-print(student.values())
+print(students.values())
 
 #To get all key-value pairs in a dictionary, use the items() method:
-print(student.items())
+print(students.items())
+
+#copy()
+new_students = students.copy()
+
+#clear()
+students.clear()
