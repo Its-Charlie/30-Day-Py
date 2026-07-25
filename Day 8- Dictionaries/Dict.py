@@ -6,3 +6,7 @@ student = {
 }
 
 print(student)
+
+#Empty Dictionary examples:
+d = {}
+d = dict()
