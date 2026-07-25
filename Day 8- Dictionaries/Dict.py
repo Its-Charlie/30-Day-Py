@@ -43,3 +43,6 @@ del student["city"]
 
 #Delete entire dictionary
 del student
+
+#To get all keys in a dictionary, use the keys() method:
+print(student.keys())
