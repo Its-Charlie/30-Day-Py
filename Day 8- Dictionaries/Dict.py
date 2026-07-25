@@ -28,3 +28,6 @@ print(person["address"]["city"])
 #Add New Item
 student["college"] = "ABC College"
 print(student)
+
+#Modify Value
+student["age"] = 23
