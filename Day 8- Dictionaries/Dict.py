@@ -31,3 +31,7 @@ print(student)
 
 #Modify Value
 student["age"] = 23
+
+#Check Key
+print("age" in student)
+True
