@@ -49,3 +49,6 @@ print(student.keys())
 
 #To get all values in a dictionary, use the values() method:
 print(student.values())
+
+#To get all key-value pairs in a dictionary, use the items() method:
+print(student.items())
