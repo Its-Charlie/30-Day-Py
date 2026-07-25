@@ -14,5 +14,13 @@ d = dict()
 #Length function:
 print(len(student))
 
-#Access Values
+#Access Values single key:
 print(student["name"])
+
+#Access Values multiple keys:
+person = {
+    "address": {
+        "city": "Mumbai"
+    }
+}
+print(person["address"]["city"])
