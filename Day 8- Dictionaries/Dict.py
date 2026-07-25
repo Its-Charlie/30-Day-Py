@@ -46,3 +46,6 @@ del student
 
 #To get all keys in a dictionary, use the keys() method:
 print(student.keys())
+
+#To get all values in a dictionary, use the values() method:
+print(student.values())
