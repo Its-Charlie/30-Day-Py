@@ -10,3 +10,6 @@ print(student)
 #Empty Dictionary examples:
 d = {}
 d = dict()
+
+#Length function:
+print(len(student))
