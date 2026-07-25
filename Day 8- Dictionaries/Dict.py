@@ -24,3 +24,7 @@ person = {
     }
 }
 print(person["address"]["city"])
+
+#Add New Item
+student["college"] = "ABC College"
+print(student)
