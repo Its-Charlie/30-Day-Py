@@ -35,3 +35,11 @@ student["age"] = 23
 #Check Key
 print("age" in student)
 True
+
+#Remove and Delete Items 
+student.pop("age")
+
+del student["city"]
+
+#Delete entire dictionary
+del student
