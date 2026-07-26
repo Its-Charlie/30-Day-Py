@@ -35,3 +35,19 @@ elif month in ["june", "july", "august"]:
     print("Summer")
 else:
     print("Invalid month")
+
+'''The following list contains some fruits:
+```sh
+fruits = ['banana', 'orange', 'mango', 'lemon']
+```
+
+If a fruit doesn't exist in the list add the fruit to the list and print the modified list. If the fruit exists print('That fruit already exist in the list')'''
+fruits = ['banana', 'orange', 'mango', 'lemon']
+
+fruit = input("Enter a fruit: ").lower()
+
+if fruit in fruits:
+    print("That fruit already exists in the list.")
+else:
+    fruits.append(fruit)
+    print(fruits)
