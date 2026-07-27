@@ -121,3 +121,22 @@ print(st) #  {0, 2, 4, 6, 8, 10}
 # for backward from start to end 
 lst = list(range(11,0,-2))
 print(lst) # [11,9,7,5,3,1]
+
+#Nested Loops:
+print("Nested Loops:")
+person = {
+    'first_name': 'Asabeneh',
+    'last_name': 'Yetayeh',
+    'age': 250,
+    'country': 'Finland',
+    'is_marred': True,
+    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address': {
+        'street': 'Space street',
+        'zipcode': '02210'
+    }
+}
+for key in person:
+    if key == 'skills':
+        for skill in person['skills']:
+            print(skill)
