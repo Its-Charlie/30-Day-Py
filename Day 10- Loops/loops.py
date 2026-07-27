@@ -140,3 +140,10 @@ for key in person:
     if key == 'skills':
         for skill in person['skills']:
             print(skill)
+
+#For Loop with else:
+print("For Loop with else:")
+for number in range(11):
+    print(number)   # prints 0 to 10, not including 11
+else:
+    print('The loop stops at', number)
