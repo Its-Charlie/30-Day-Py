@@ -100,3 +100,8 @@ for number in numbers:
         continue
     print('Next number should be ', number + 1) if number != 5 else print("loop's end") # for short hand conditions need both if and else statements
 print('outside the loop')
+
+#Using For Loop with pass:
+print("Using For Loop with pass:")
+for number in range(6):
+    pass
