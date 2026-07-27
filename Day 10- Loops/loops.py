@@ -82,3 +82,11 @@ print("Using For Loop in set:")
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
 for company in it_companies:
     print(company)
+
+#Using For Loop with break:
+print("Using For Loop with break:")
+numbers = (0,1,2,3,4,5)
+for number in numbers:
+    print(number)
+    if number == 3:
+        break
