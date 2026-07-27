@@ -50,3 +50,9 @@ for letter in language:
 
 for i in range(len(language)):
     print(language[i])
+
+#Using For loop on tuple:
+print("Using For loop on tuple:")
+numbers = (0, 1, 2, 3, 4, 5)
+for number in numbers:
+    print(number)
