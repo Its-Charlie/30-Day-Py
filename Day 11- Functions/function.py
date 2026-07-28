@@ -87,3 +87,15 @@ def weight_of_object (mass, gravity):
     return weight
 print('Weight of an object in Newtons: ', weight_of_object(100, 9.81))
 
+#Passing Arguments with Key and Value:
+print('Passing Arguments with Key and Value:')
+def print_fullname(firstname, lastname):
+    space = ' '
+    full_name = firstname  + space + lastname
+    print(full_name)
+print_fullname(firstname = 'Asabeneh', lastname = 'Yetayeh')
+
+def add_two_numbers (num1, num2):
+    total = num1 + num2
+    return total
+print(add_two_numbers(num2 = 3, num1 = 2)) # Order does not matter 
