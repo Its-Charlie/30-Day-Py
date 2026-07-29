@@ -2,3 +2,8 @@
 import math #import functions from the math module
 from math import sqrt, pi #import specific functions from the math module
 from math import * #import all functions from the math module
+
+#Rename While Importing:
+from math import sqrt as sq
+
+print(sq(25))
