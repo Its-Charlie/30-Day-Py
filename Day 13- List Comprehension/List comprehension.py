@@ -12,3 +12,11 @@ print(square)
 #Lambda Function
 square = lambda x: x*x
 print(square(5))
+
+#Lambda Returning Lambda
+def power(x):
+    return lambda y: x ** y
+
+cube = power(2)
+
+print(cube(3))
