@@ -8,3 +8,7 @@ print(even)
 #Mathematical Operations
 square = [x**2 for x in range(6)]
 print(square)
+
+#Lambda Function
+square = lambda x: x*x
+print(square(5))
