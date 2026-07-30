@@ -15,3 +15,17 @@ result = [
 ]
 
 print(result)
+
+#Flatten Countries
+countries = [
+    [('Finland', 'Helsinki')],
+    [('Sweden', 'Stockholm')],
+    [('Norway', 'Oslo')]
+]
+
+result = [
+    [country.upper(), country[:3].upper(), city.upper()]
+    for [(country, city)] in countries
+]
+
+print(result)
