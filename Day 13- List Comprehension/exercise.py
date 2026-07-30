@@ -46,3 +46,18 @@ result = [
 ]
 
 print(result)
+
+#Concatenate Names
+names = [
+    [('Asabeneh', 'Yetayeh')],
+    [('David', 'Smith')],
+    [('Donald', 'Trump')],
+    [('Bill', 'Gates')]
+]
+
+result = [
+    first + " " + last
+    for [(first, last)] in names
+]
+
+print(result)
