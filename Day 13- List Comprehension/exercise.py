@@ -61,3 +61,8 @@ result = [
 ]
 
 print(result)
+
+#Lambda for Slope
+slope = lambda x1, y1, x2, y2: (y2 - y1) / (x2 - x1)
+
+print(slope(2, 3, 5, 9))
