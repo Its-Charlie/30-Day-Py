@@ -29,3 +29,20 @@ result = [
 ]
 
 print(result)
+
+#Countries to Dictionary
+countries = [
+    [('Finland', 'Helsinki')],
+    [('Sweden', 'Stockholm')],
+    [('Norway', 'Oslo')]
+]
+
+result = [
+    {
+        "country": country.upper(),
+        "city": city.upper()
+    }
+    for [(country, city)] in countries
+]
+
+print(result)
