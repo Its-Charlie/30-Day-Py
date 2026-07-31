@@ -1,6 +1,9 @@
 "Python - Map Function"
 
 #Example:1
+from functools import reduce
+
+
 numbers = [1, 2, 3, 4, 5] # iterable
 def square(x):
     return x ** 2
@@ -62,3 +65,11 @@ def is_name_long(name):
 
 long_names = filter(is_name_long, names)
 print(list(long_names))         # ['Asabeneh']
+
+"Python - Reduce Function"
+numbers_str = ['1', '2', '3', '4', '5']  # iterable
+def add_two_nums(x, y):
+    return int(x) + int(y)
+
+total = reduce(add_two_nums, numbers_str)
+print(total)    # 15
