@@ -136,3 +136,37 @@ AttributeError: module 'math' has no attribute 'PI'
 >>> math.pi
 3.141592653589793
 >>>
+
+
+
+KeyError
+Example 1: KeyError
+
+asabeneh@Asabeneh:~$ python
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> users = {'name':'Asab', 'age':250, 'country':'Finland'}
+>>> users['name']
+'Asab'
+>>> users['county']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'county'
+>>>
+
+Solution:
+asabeneh@Asabeneh:~$ python
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> user = {'name':'Asab', 'age':250, 'country':'Finland'}
+>>> user['name']
+'Asab'
+>>> user['county']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'county'
+>>> user['country']
+'Finland'
+>>>
