@@ -170,3 +170,34 @@ KeyError: 'county'
 >>> user['country']
 'Finland'
 >>>
+
+
+
+TypeError
+Example 1: TypeError
+
+asabeneh@Asabeneh:~$ python
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 4 + '3'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>>
+
+Solution:
+asabeneh@Asabeneh:~$ python
+Python 3.9.6 (default, Jun 28 2021, 15:26:21)
+[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 4 + '3'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> 4 + int('3')
+7
+>>> 4 + float('3')
+7.0
+>>>
+
