@@ -45,3 +45,7 @@ today = date.today()
 today.year
 today.month
 today.day
+
+#Time Difference
+diff = date2 - date1
+diff = datetime2 - datetime1
