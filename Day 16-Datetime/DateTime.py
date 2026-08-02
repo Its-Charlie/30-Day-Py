@@ -50,3 +50,8 @@ today.day
 
 diff = date2 - date1
 diff = datetime2 - datetime1'''
+
+#Timedelta
+from datetime import timedelta
+
+t = timedelta(days=5)
