@@ -18,3 +18,8 @@ datetime(2025, 8, 2, 10, 30, 0)
 date(2025, 8, 2)
 
 time(10, 30, 50)
+
+#Format Date (strftime)
+now.strftime("%H:%M:%S")
+now.strftime("%d/%m/%Y")
+now.strftime("%m/%d/%Y, %H:%M:%S")
