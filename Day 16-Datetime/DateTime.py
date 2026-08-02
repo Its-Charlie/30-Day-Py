@@ -11,3 +11,10 @@ now.hour
 now.minute
 now.second
 now.timestamp()
+
+#Create Date/Time
+datetime(2025, 8, 2, 10, 30, 0)
+
+date(2025, 8, 2)
+
+time(10, 30, 50)
