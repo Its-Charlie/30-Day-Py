@@ -34,3 +34,7 @@ now.strftime("%m/%d/%Y, %H:%M:%S")
 %S -> Second
 %B -> Full month name
 %A -> Weekday'''
+
+#String → Date (strptime)
+date_string = "5 December, 2019"
+date_object = datetime.strptime(date_string, "%d %B, %Y")
