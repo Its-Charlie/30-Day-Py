@@ -38,3 +38,10 @@ now.strftime("%m/%d/%Y, %H:%M:%S")
 #String → Date (strptime)
 date_string = "5 December, 2019"
 date_object = datetime.strptime(date_string, "%d %B, %Y")
+
+#Today's Date
+today = date.today()
+
+today.year
+today.month
+today.day
