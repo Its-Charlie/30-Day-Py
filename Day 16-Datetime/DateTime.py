@@ -23,3 +23,14 @@ time(10, 30, 50)
 now.strftime("%H:%M:%S")
 now.strftime("%d/%m/%Y")
 now.strftime("%m/%d/%Y, %H:%M:%S")
+
+'''Common format codes:
+
+%Y -> Year
+%m -> Month
+%d -> Day
+%H -> Hour (24)
+%M -> Minute
+%S -> Second
+%B -> Full month name
+%A -> Weekday'''
