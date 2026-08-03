@@ -26,3 +26,9 @@ except:
     print("Error")
 finally:
     print("Always runs")
+
+#Exception as Variable
+try:
+    x = 10 + "5"
+except Exception as e:
+    print(e)
