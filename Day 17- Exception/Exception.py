@@ -65,3 +65,9 @@ def person(**kwargs):
     print(kwargs)
 
 person(name="Charlie", age=22)
+
+#enumerate()
+fruits = ["apple", "banana", "mango"]
+
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
