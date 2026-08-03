@@ -71,3 +71,10 @@ fruits = ["apple", "banana", "mango"]
 
 for index, fruit in enumerate(fruits):
     print(index, fruit)
+
+#zip()
+names = ["A", "B", "C"]
+marks = [90, 85, 95]
+
+for n, m in zip(names, marks):
+    print(n, m)
