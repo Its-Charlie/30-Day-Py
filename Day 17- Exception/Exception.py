@@ -42,3 +42,14 @@ def add(a, b, c):
 lst = [1, 2, 3]
 
 print(add(*lst))
+
+#Unpacking Dictionary
+def info(name, age):
+    print(name, age)
+
+d = {
+    "name": "Charlie",
+    "age": 22
+}
+
+info(**d)
