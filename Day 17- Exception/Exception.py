@@ -53,3 +53,9 @@ d = {
 }
 
 info(**d)
+
+#Packing (*args)
+def total(*args):
+    print(args)
+
+total(1,2,3,4)
