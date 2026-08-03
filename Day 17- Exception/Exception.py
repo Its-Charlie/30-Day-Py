@@ -59,3 +59,9 @@ def total(*args):
     print(args)
 
 total(1,2,3,4)
+
+#Packing (**kwargs)
+def person(**kwargs):
+    print(kwargs)
+
+person(name="Charlie", age=22)
