@@ -17,3 +17,12 @@ except:
     print("Error")
 else: 
     print("Success")
+
+'finally => Runs every time.'
+
+try:
+    x = 10 / 2
+except:
+    print("Error")
+finally:
+    print("Always runs")
