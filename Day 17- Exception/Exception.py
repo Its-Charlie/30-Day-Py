@@ -32,3 +32,13 @@ try:
     x = 10 + "5"
 except Exception as e:
     print(e)
+
+'Packing & Unpacking'
+
+#Unpacking List
+def add(a, b, c):
+    return a + b + c
+
+lst = [1, 2, 3]
+
+print(add(*lst))
