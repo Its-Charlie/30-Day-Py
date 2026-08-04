@@ -37,3 +37,13 @@ re.sub(pattern, replacement, text)'''
 text = "I love Python"
 
 print(re.sub("Python", "Java", text))
+
+'''
+re.split()
+Splits string using regex.
+syntax:
+re.split(pattern, text)'''
+
+text = "Apple,Banana,Mango"
+
+print(re.split(",", text))
