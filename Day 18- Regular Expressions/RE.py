@@ -27,3 +27,13 @@ re.findall(pattern, text)'''
 text = "Python Java Python C++ Python"
 
 print(re.findall("Python", text))
+
+'''
+re.sub()
+Replaces matched text.
+syntax:
+re.sub(pattern, replacement, text)'''
+
+text = "I love Python"
+
+print(re.sub("Python", "Java", text))
