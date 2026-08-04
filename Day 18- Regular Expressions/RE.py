@@ -18,3 +18,12 @@ re.search(pattern, text)
 text = "I love Python"
 
 print(re.search("Python", text))
+
+'''re.findall()
+Returns all matches as a list.
+syntax:
+re.findall(pattern, text)'''
+
+text = "Python Java Python C++ Python"
+
+print(re.findall("Python", text))
