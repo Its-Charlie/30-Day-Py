@@ -62,3 +62,11 @@ with open("data.csv") as f:
     reader = csv.reader(f)
     for row in reader:
         print(row)
+
+#Read XML
+import xml.etree.ElementTree as ET
+
+tree = ET.parse("data.xml")
+root = tree.getroot()
+
+print(root.tag)
