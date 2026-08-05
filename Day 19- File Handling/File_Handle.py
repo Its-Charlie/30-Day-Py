@@ -15,3 +15,7 @@ with open("file.txt", "r") as f:
 #Read One Line
 with open("file.txt") as f:
     print(f.readline())
+
+#Read All Lines
+with open("file.txt") as f:
+    print(f.readlines())
