@@ -46,3 +46,11 @@ import json
 
 person = {"name":"Charlie","age":22}
 print(json.dumps(person, indent=4))
+
+#Save Dictionary as JSON File
+import json
+
+person = {"name":"Charlie","age":22}
+
+with open("person.json", "w") as f:
+    json.dump(person, f, indent=4)
