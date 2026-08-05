@@ -23,3 +23,7 @@ with open("file.txt") as f:
 #Write File
 with open("file.txt", "w") as f:
     f.write("Hello")
+
+#Append File
+with open("file.txt", "a") as f:
+    f.write("\nNew Line")
