@@ -33,3 +33,10 @@ import os
 
 if os.path.exists("file.txt"):
     os.remove("file.txt")
+
+#JSON → Dictionary
+import json
+
+json_str = '{"name":"Charlie","age":22}'
+data = json.loads(json_str)
+print(data)
