@@ -54,3 +54,11 @@ person = {"name":"Charlie","age":22}
 
 with open("person.json", "w") as f:
     json.dump(person, f, indent=4)
+
+#Read CSV
+import csv
+
+with open("data.csv") as f:
+    reader = csv.reader(f)
+    for row in reader:
+        print(row)
