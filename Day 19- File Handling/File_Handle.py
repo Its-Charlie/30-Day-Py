@@ -40,3 +40,9 @@ import json
 json_str = '{"name":"Charlie","age":22}'
 data = json.loads(json_str)
 print(data)
+
+#Dictionary → JSON String
+import json
+
+person = {"name":"Charlie","age":22}
+print(json.dumps(person, indent=4))
