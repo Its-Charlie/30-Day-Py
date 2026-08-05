@@ -27,3 +27,9 @@ with open("file.txt", "w") as f:
 #Append File
 with open("file.txt", "a") as f:
     f.write("\nNew Line")
+
+#Delete File
+import os
+
+if os.path.exists("file.txt"):
+    os.remove("file.txt")
