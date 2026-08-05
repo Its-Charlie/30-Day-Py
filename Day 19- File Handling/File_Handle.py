@@ -19,3 +19,7 @@ with open("file.txt") as f:
 #Read All Lines
 with open("file.txt") as f:
     print(f.readlines())
+
+#Write File
+with open("file.txt", "w") as f:
+    f.write("Hello")
