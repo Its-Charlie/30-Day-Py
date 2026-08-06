@@ -1,4 +1,5 @@
 # using numpy after installing it with pip
+
 '''before running this code, make sure to install numpy using pip:
 pip insrtall numpy"'''
 
@@ -10,6 +11,8 @@ print(arr+2)
 print(arr*5)
 
 #requst API using requests module after installing it with pip
+
+'''pip install requests'''
 import requests
 
 url = "https://api.github.com"
