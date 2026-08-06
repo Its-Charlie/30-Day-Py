@@ -1,0 +1,28 @@
+pip (Python Package Manager)=>
+
+1. Install package:
+pip install package_name
+
+2. Upgrade package:
+
+pip install --upgrade package_name
+
+3. Uninstall:
+
+pip uninstall package_name
+
+4. List installed packages:
+
+pip list
+
+5. Show package details:
+
+pip show package_name
+
+6. Create requirements.txt:
+
+pip freeze > requirements.txt
+
+7. Install all packages from requirements.txt:
+
+pip install -r requirements.txt
