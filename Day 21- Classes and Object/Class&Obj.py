@@ -39,3 +39,18 @@ p = Person()
 
 print(p.name)
 print(p.age)
+
+#Modifying Object
+class Student:
+    def __init__(self):
+        self.skills = []
+
+    def add_skill(self, skill):
+        self.skills.append(skill)
+
+s = Student()
+
+s.add_skill("Python")
+s.add_skill("SQL")
+
+print(s.skills)
