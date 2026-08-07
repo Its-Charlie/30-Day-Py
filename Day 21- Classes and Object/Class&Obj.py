@@ -28,3 +28,14 @@ class Person:
 
 p = Person("Charlie")
 p.greet()
+
+#Default Constructor Values
+class Person:
+    def __init__(self, name="Unknown", age=0):
+        self.name = name
+        self.age = age
+
+p = Person()
+
+print(p.name)
+print(p.age)
