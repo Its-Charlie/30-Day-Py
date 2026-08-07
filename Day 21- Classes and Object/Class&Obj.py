@@ -16,3 +16,15 @@ p = Person("Charlie", 22)
 
 print(p.name)
 print(p.age)
+
+#Create a Class with Methods
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        print("Hello", self.name)
+
+p = Person("Charlie")
+p.greet()
