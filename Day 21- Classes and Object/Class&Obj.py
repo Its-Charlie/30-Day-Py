@@ -54,3 +54,15 @@ s.add_skill("Python")
 s.add_skill("SQL")
 
 print(s.skills)
+
+#Inheritance
+class Person:
+    def greet(self):
+        print("Hello")
+
+class Student(Person):
+    pass
+
+s = Student()
+
+s.greet()
