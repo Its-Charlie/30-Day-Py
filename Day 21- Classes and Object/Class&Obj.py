@@ -81,3 +81,16 @@ s = Student("Charlie", 101)
 
 print(s.name)
 print(s.roll)
+
+#Method Overriding
+class Person:
+    def greet(self):
+        print("Hello")
+
+class Student(Person):
+    def greet(self):
+        print("Hi Student")
+
+s = Student()
+
+s.greet()
