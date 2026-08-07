@@ -66,3 +66,18 @@ class Student(Person):
 s = Student()
 
 s.greet()
+
+#super()
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+class Student(Person):
+    def __init__(self, name, roll):
+        super().__init__(name)
+        self.roll = roll
+
+s = Student("Charlie", 101)
+
+print(s.name)
+print(s.roll)
