@@ -17,3 +17,7 @@ soup = BeautifulSoup(response.content, "html.parser")
 print(soup.title)
 print(soup.title.get_text())
 print(soup.body)
+
+#Find HTML elements:
+
+tables = soup.find_all("table")
