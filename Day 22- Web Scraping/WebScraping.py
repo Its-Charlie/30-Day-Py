@@ -24,9 +24,10 @@ print(soup.body)
 tables = soup.find_all("table")
 
 'Find by tag + attribute:'
-
 tables = soup.find_all("table", {"cellpadding": "3"})
 
 'Find one:'
-
 table = soup.find("table")
+
+'Find rows:'
+rows = table.find_all("tr")
